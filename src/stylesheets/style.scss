@@ -1,0 +1,42 @@
+@import "components/reset";
+
+* {
+    box-sizing: border-box;
+}
+
+canvas {
+    position: fixed;
+    z-index: 0;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    color: white;
+    height: 100%;
+}
+
+h1#title {
+    display: none;
+}
+
+#forms {
+    position: fixed;
+    bottom: 2rem;
+    left: 50%;
+    margin-left: -212px
+}
+
+.container {
+    position: relative;
+    background: transparent;
+    z-index: 50;
+    padding: 2rem;
+    height: 100%;
+}

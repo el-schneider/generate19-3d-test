@@ -1,0 +1,43 @@
+{
+  "name": "generate19-3d-test",
+  "version": "0.3.2",
+  "description": "generate19 threejs basic setup bundled with webpack",
+  "keywords": [
+    "webgl",
+    "boilerplate",
+    "three.js",
+    "es6",
+    "webpack"
+  ],
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "prebuild": "rimraf ./build && mkdir ./build",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "three": "^0.98.0",
+    "three-obj-loader": "^1.1.3",
+    "three-obj-mtl-loader": "^1.0.3",
+    "webpack-cli": "^3.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "babel-loader": "^8.0.4",
+    "copy-webpack-plugin": "^5.0.3",
+    "css-loader": "^3.0.0",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.7.0",
+    "node-sass": "^4.12.0",
+    "raw-loader": "^0.5.1",
+    "rimraf": "^2.6.2",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.34.0",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}
